@@ -1,0 +1,5 @@
+export GP_INSTANCE_ID=
+export GP_ENDPOINT=
+export GP_USER_ID=
+export GP_PASSWORD=
+export GP_DASHBOARD=
