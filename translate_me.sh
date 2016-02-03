@@ -391,19 +391,19 @@ if [ -z $JOB_TYPE ]; then
     export JOB_TYPE="CREATE"    
 fi 
 
-if [ -z $GP_ENDPOINT ]; then 
+#if [ -z $GP_ENDPOINT ]; then 
     export GP_ENDPOINT="https://gp-dev-rest.stage1.mybluemix.net/translate/rest"
 
-fi 
+#fi 
 if [ -z $GP_INSTANCE_ID ]; then 
     echo -e "${red}INSTANCE ID for Globalization Service must be set in the environment${no_color}"
     exit 1
 fi 
 #if [ -z $GP_USER_ID ]; then 
-#    export GP_USER_ID="86f21b848828b68690a3a1f9d590868d"
+#    export GP_USER_ID=""
 #fi 
 #if [ -z $GP_PASSWORD ]; then 
-#    export GP_PASSWORD="oecZ1jgABmPJ0YIF/4rVIa6qJkHw0qTd"
+#    export GP_PASSWORD=""
 #fi 
 #if [ -z $BUNDLE_NAME ]; then 
 #    echo -e "${yellow}No project prefix set${no_color}"

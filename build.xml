@@ -22,9 +22,19 @@
 
 	<!-- Build the actual zip file that gets uploaded to uDeploy -->
 	<target name="buildZip">
-		<zip destfile="${zipOutputPath}" basedir="${basedir}" update="false"
-			excludes='.*, .*/**, bin/**, build/**, build.xml, README.md, deleteme/**' />
+		<zip destfile="${zipOutputPath}">			
+			<fileset dir=".">
+				<include name="src/**"/>
+				<include name="lib/**"/>				
+				<include name="globalization_check.py"/>
+				<include name="info.xml"/>
+				<include name="plugin.xml"/>
+				<include name="translate_me.sh"/>
+				<include name="_init.sh"/>
+			</fileset>
+		</zip>	
 	</target>
+
 
 	<!-- Clean up the build directory -->
 	<target name="clean">

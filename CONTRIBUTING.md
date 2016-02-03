@@ -4,7 +4,7 @@ We welcome contributions but request that you follow these guidelines.
 
 ## Bugs
 
-Please raise any bug reports on the project°Øs issue tracker.
+Please raise any bug reports on the project‚Äôs issue tracker.
 Be sure to search the list to see if your issue has already been raised.
 
 A good bug report is one that make it easy for us to understand what
@@ -17,7 +17,7 @@ Use Bluemix support options within the Bluemix web page for customer
 assistance with Bluemix, including the Globalization Pipeline service itself.
 
 For general questions about Globalization Pipeline, you may also use the
-StackOverflow tag [°∞globalization pipeline°±](http://stackoverflow.com/questions/tagged/globalization-pipeline)
+StackOverflow tag [‚Äúglobalization pipeline‚Äù](http://stackoverflow.com/questions/tagged/globalization-pipeline)
 
 ## New features
 
@@ -58,5 +58,5 @@ slightly different.
 ### Acknowledgement
 
 - Master copy: https://github.com/IBM-Bluemix/gp-common/blob/master/CONTRIBUTING.md
-- Copyright ? 2016 IBM Corporation.
+- Copyright ¬© 2016 IBM Corporation.
 - This document forked from [wasdev](https://github.com/WASdev/wasdev.github.io/blob/master/CONTRIBUTING.md)

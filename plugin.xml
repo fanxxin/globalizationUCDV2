@@ -2,7 +2,7 @@
 <plugin xmlns="http://www.urbancode.com/PluginXMLSchema_v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <header>
     <!-- To update plugin.xml in place, this version must be incremented.  This is not the version displayed to the user -->
-    <identifier id="com.ibm.bluemix.plugin.globalizationv2" name="IBM Globalization Pipeline Plugin V2" version="11"/>
+    <identifier id="com.ibm.bluemix.plugin.globalizationv2" name="IBM Globalization Pipeline Plugin V2" version="1"/>
     <description>The Bluemix Globalization Plugin allows users to use the Globalization app from Bluemix.</description>
     <tag>Utilities/BluemixV2</tag>
   </header>
