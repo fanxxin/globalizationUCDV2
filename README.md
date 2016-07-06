@@ -34,25 +34,6 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ## Usage
 
-### SetupBluemix 
-
-#### Description
-
-This step will look for the Globalization Pipeline service instance in your space and will create one if none existing. 
-Tf existing many instances already, the instance contains UCD in its name will take prior priority.
-
-#### Parameters
-
-Fill in the * fileds according to the Bluemix page
-
-* **Name** could be any name you like.
-* **Bluemix UserID** is the login id of the Bluemix page.
-* **Bluemix Password** is the login password of the Bluemix page.
-* **Bluemix Space** is the space of the Bluemix page.
-* **Bluemix Org** is the org of the Bluemix page.
-* **Bluemix API Endpoint** is the url of bluemix API endpoint.  
-   For eg: *https://api.stage1.ng.bluemix.net*
-
 ### Translate 
 
 #### Description
@@ -69,6 +50,16 @@ The bundle name has max 30 characters and is the same with the source file(May c
    If not specified it will search in working folder as default.
 * **Download translation** default is unchosen.  
    If chosen, it will download translated files to the source file folder.
+* **Target languages**
+  - select languages in service dashboard (Default option)
+  
+  	It will create the bundle without any language and user can go to the bluemix globalization pipeline dashboard to add target languages.
+  - translate into all languages 
+  
+  	It will call the bluemix globalization pipeline service API to get the available languages for the instance.
+* **Bluemix credential**
+
+    Globalization Pipeline service credential, eg: {"credentials": { "url": "\*", "userId": "\*","password": "\*", "instanceId": "\*" }}'
 
 ## History
 
@@ -87,9 +78,6 @@ You can post questions about using this service in the developerWorks Answers si
 using the tag "[Globalization](https://developer.ibm.com/answers/topics/globalization/)".
 
 This plugin is based on [Globalization Java Client](https://github.com/IBM-Bluemix/gp-java-client) which is a recommended integration method with IBM [Globalization Pipeline](https://www.ng.bluemix.net/docs/#services/GlobalizationPipeline/index.html#globalization)
-
-
-
 
 
 
